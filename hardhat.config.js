@@ -7,7 +7,6 @@ require("hardhat-contract-sizer")
 require("dotenv").config()
 
 const PRIVATE_KEY_GOERLI = process.env.PRIVATE_KEY_GOERLI || ""
-// const PRIVATE_KEY_GOERLI_2 = process.env.PRIVATE_KEY_GOERLI_2 || ""
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 const RPC_URL_GOERLI = process.env.RPC_URL_GOERLI || ""
 const COINMARKETCAP = process.env.COINMARKETCAP || ""
